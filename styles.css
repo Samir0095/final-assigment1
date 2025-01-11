@@ -12,6 +12,13 @@
     border-radius: 8px;
     border: none;
   }
+
+  .card-btn{
+    height: 48px;
+    width: 139px;
+    font-size: 18px;
+    font-weight: 600;
+  }
 /* Nav Styles */
 header nav {
     display: flex;
@@ -140,7 +147,7 @@ h4, h1, button {
 /* Section-2 */
 .section-2{
 
-    margin: 160px;
+    margin: 160px 160px 0px 160px;
     width: 1280px;
     height: 765px;
 }
@@ -157,6 +164,7 @@ h4, h1, button {
 .vision-box-container{
     display: flex;
     justify-content: space-between;
+    margin: ;
 }
 
 .vi-box{
@@ -243,3 +251,148 @@ h4, h1, button {
     padding-left: 24px;
     padding-top: 4px;
   }
+
+
+
+
+  /* Section-3 Recent News */
+
+
+.section-3{
+    height: 1406px;
+    width: 1280px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.section-3 h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;;
+}
+.section-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin: 20px 0px 20px 0px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+}
+.card{
+    width: 1280px;
+    height: 402px;
+    background-color: #ffffff;
+    margin: 12px 0px 0px ;
+    border-radius: 24px;
+    display: flex;
+    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.card-img{
+    margin: 0;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-right: 32px;
+}
+.img-border{
+    border-radius: 24px;
+}
+
+.card-writting{
+    width: 740px;
+    height: 290px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.card-writting h5{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.p-contain{
+    display: flex;
+}
+.p-contain p{
+    padding-right: 12px;
+}
+.card-rev{
+    flex-direction: row-reverse;
+}
+
+
+/* Donate section-4 */
+
+.section-4{
+    margin-bottom: 80px;
+}
+.dnt-container{
+    height: 414px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    padding: 0;
+}
+#dnt-para{
+    text-align: center ;
+    opacity: 70%;
+}
+.dnt-container p{
+    font-size: 16px ;
+    font-weight: 400 ;
+    color: black;
+}
+.tk-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1071px;
+    height: 128px;
+}
+
+.tk{
+    width: 240px;
+    height: 128px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+.tm32p{
+    margin-top: 32px;
+}
+.tk p{
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+#input-taka{
+    width: 1032px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#input-taka::placeholder {
+  opacity: 30%;
+  font-size: 20px;
+  font-weight: 400;
+}
