@@ -1,0 +1,245 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* Shared Styles */
+
+.green-btn{
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+  }
+/* Nav Styles */
+header nav {
+    display: flex;
+    margin: 24px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+ h3{
+    font-size: 32px;
+}
+header nav button {
+    color: #006A50;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    width: 116px;
+    height: 52px;
+}
+
+/* Section-1 Idea */
+section-1{   
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+}
+.section1box .box {
+    height: 326px;
+    width: 622px;
+}
+.Bangladesh-box{
+
+    width: 622px;
+}
+
+.Bangladesh-box h4{
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+} 
+.Bangladesh-box h1{
+    width: 622px;
+    height: 201px;
+    font-size: 57px;
+    color: #0E0E0E;
+} 
+h4, h1, button {
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    margin-bottom: 16px; 
+  }
+  
+  h1 {
+    margin-bottom: 16px;
+  }
+  
+  button {
+    margin-top: 16px; 
+  }
+.section1box{
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1box .box{
+    padding-bottom: 80px;
+}
+.section1box img{
+    margin-left: 70px;
+}
+
+.btn1{
+    width: 270px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Pillars */
+.pillar-head {
+    font-size: 40px;
+    margin: 100px 10px 0px 160px ;
+}
+.pillar-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 160px 160px;
+    width: 1280px;
+    height: 244px;
+
+}
+.box{
+    width: 302px;
+    height: 244px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1); 
+}
+.box img{
+    width: 64px;
+    height: 64px;
+    padding: 25px;
+}
+ h5{
+
+    font-weight: 700;
+    margin: 0 25px;
+    font-size: 20px;
+    opacity: 80%;
+}
+.box p{
+    margin: 15px 24px;
+    opacity: 70%;
+}
+
+/* Section-2 */
+.section-2{
+
+    margin: 160px;
+    width: 1280px;
+    height: 765px;
+}
+
+.section-2 p{
+    color: #0E0E0E;
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16px;
+    margin: 32px 0px;
+
+}
+
+.vision-box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vi-box{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+
+.vi-box img{
+    padding: 32px 24px 32px;
+    width: 64px;
+    height: 64px;
+}
+
+.vi-box h5{
+    margin-left: 32px;
+}
+
+.vi-box p{
+    margin: 12px 24px 32px 32px;
+}
+
+.vi-box button{
+    margin-left: 32px;
+    text-align: center;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+
+}
+
+.vbox-btn1{
+    background-color:#5490F5 ;
+}
+.vbox-btn2{
+    background-color:#09A15C ;
+}
+.vbox-btn3{
+    background-color:#FFC239 ;
+}
+
+
+.vi-bg1{
+    background-color:  #D5E1F5 ;   
+}
+.vi-bg2{
+    background-color: #C6E4D6;
+}
+.vi-bg3{
+    background-color: #F7EBCF;
+}
+
+.yunus{
+    width: 1280px;
+    height: 230px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 15px;
+    background-color: white;
+    margin-top: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1); 
+
+}
+.yunus p:nth-child(1) {
+    color: #0e0e0e;
+    opacity: 80%;
+    padding: 40px 24px 12px 24px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+.yunus h5{
+    margin: 0;
+    padding-left: 24px;
+}
+.yunus p:nth-child(3) {
+    color: #0E0E0E;
+    opacity: 60%;
+    margin: 0;
+    padding-left: 24px;
+    padding-top: 4px;
+  }
