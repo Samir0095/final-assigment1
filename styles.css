@@ -396,3 +396,61 @@ h4, h1, button {
   font-size: 20px;
   font-weight: 400;
 }
+
+.news{
+    width: 1280px;
+    height: 395px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.news h3{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+#news-para-1{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+    width: 622px;
+    text-align: center;
+}
+.email-nibo{
+    display: flex;
+    align-items: end;
+}
+.email-nibo .email-dao{
+    width: 600px;
+    height: 46px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+}
+.email-nibo button{
+    height: 48px;
+    width: 139px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    border: none;
+}
+
+#news-para-2{
+    color: black;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
+}
