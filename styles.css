@@ -454,3 +454,48 @@ h4, h1, button {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 226px;
+}
+
+footer h5{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+footer hr{
+    width: 1122px;
+    margin: 32px;
+}
+
+footer img{
+    width: 24px;
+    height: 24px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+}
+
+/* hover */
+
+
+.green-btn:hover{
+    color: green;
+    background-color: #D5E1F5;
+    font-size: 15px;
+}
+.tk:hover{
+    background-color: #286744;
+}
+nav button:hover{
+    background-color: green;
+    color: white;
+    font-size: 17px;
+}
