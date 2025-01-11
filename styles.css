@@ -499,3 +499,17 @@ nav button:hover{
     color: white;
     font-size: 17px;
 }
+
+.vbox-btn1:hover{
+    background-color: blue;
+}
+.vbox-btn2:hover{
+    background-color: rgb(1, 94, 1);
+}
+.vbox-btn3:hover{
+    background-color: rgb(91, 91, 7);
+}
+.tuki:hover:{
+    background-color: white;
+    color: green;
+}
